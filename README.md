@@ -40,8 +40,6 @@ powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)
 
 ## ngram(n, iter_tokens)
 Return a generator of n-gram from an iterable
-    z = len(iter_tokens)
-    return (iter_tokens[i:i+n] for i in xrange(z-n+1))
 
 ## power_ngram(iter_tokens)
 Generate unigram, bigram, trigram ... and the max-gram, different from powerset(), this function will not generate skipped combinations such as (1,3)
