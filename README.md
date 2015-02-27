@@ -36,7 +36,7 @@ Cut the sentence in into tokens without deleting anything
 A very simple stemmer, for entity of GO stemming
 
 ## powerset(iterable)
-powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
+powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)
 
 ## ngram(n, iter_tokens)
 Return a generator of n-gram from an iterable
