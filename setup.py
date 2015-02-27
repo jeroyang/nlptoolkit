@@ -10,6 +10,7 @@ setup(name='nlptoolkit',
       description='My minimal NLP tools for Biocreative IV contest',
       author='Chia-Jung, Yang',
       author_email='jeroyang@gmail.com',
-      packages=find_packages()
+      packages=find_packages(),
+      url = "https://github.com/jeroyang/nlptoolkit",
 )
 
